@@ -1,13 +1,90 @@
 body {
-  margin: 0;
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+  /* Font Sizes */
+  --text-2xs: 0.702rem;
+  --text-xs: 0.79rem;
+  --text-sm: 0.889rem;
+  --text-base: 1rem;
+  /*16px*/
+  --text-h5: 1.125rem;
+  --text-h4: 1.266rem;
+  --text-h3: 1.424;
+  --text-h2: 1.602rem;
+  --text-h1: 1.802rem;
+
+  /* SPACING */
+  --gap-2xsm: 0.125rem;
+  /*2px*/
+  --gap-xsm: 0.25rem;
+  /*4px*/
+  --gap-sm: 0.5rem;
+  /*8px*/
+  --gap-md: 1rem;
+  /*16px*/
+  --gap-lg: 1.5rem;
+  /*24px*/
+  --gap-xlg: 2rem;
+  /*32px*/
+  --gap-2xlg: 2.5rem;
+  /*40px*/
+  --gap-3xlg: 3rem;
+  /*48px*/
+  --gap-4xlg: 3.5rem;
+  /*56px*/
+  --gap-5xlg: 4rem;
+  /*64px*/
+
+  /* COLORS */
+  /* LIGHT */
+  --light-sheet: hsl(210, 10%, 96%);
+  --light-primary-50: hsl(229, 81%, 96%);
+  --light-primary-40: hsl(229, 83%, 86%);
+  --light-primary-30: hsl(229, 84%, 76%);
+  --light-primary-20: hsl(230, 84%, 66%);
+  --light-primary-10: hsl(229, 84%, 56%);
+  --light-neutral-100: hsl(223, 23%, 94%);
+  --light-neutral-90: hsl(227, 22%, 92%);
+  --light-neutral-80: hsl(224, 22%, 90%);
+  --light-neutral-70: hsl(224, 22%, 87%);
+  --light-neutral-60: hsl(224, 23%, 77%);
+  --light-neutral-50: hsl(226, 23%, 67%);
+  --light-neutral-40: hsl(224, 23%, 57%);
+  --light-neutral-30: hsl(226, 22%, 47%);
+  --light-neutral-20: hsl(225, 23%, 37%);
+  --light-neutral-10: hsl(225, 23%, 27%);
+  --light-neutral-00: hsl(225, 23%, 17%);
+  --light-red-50: hsl(351, 87%, 94%);
+  --light-red-40: hsl(349, 83%, 86%);
+  --light-red-30: hsl(349, 84%, 76%);
+  --light-red-20: hsl(350, 84%, 66%);
+  --light-red-10: hsl(349, 84%, 56%);
+  --light-orange-50: hsl(18, 87%, 94%);
+  --light-orange-40: hsl(20, 83%, 86%);
+  --light-orange-30: hsl(20, 84%, 76%);
+  --light-orange-20: hsl(19, 84%, 66%);
+  --light-orange-10: hsl(20, 84%, 56%);
+  --light-green-50: hsl(141, 85%, 92%);
+  --light-green-40: hsl(140, 83%, 86%);
+  --light-green-30: hsl(140, 84%, 76%);
+  --light-green-20: hsl(139, 84%, 66%);
+  --light-green-10: hsl(140, 84%, 56%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
